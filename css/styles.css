@@ -25,6 +25,9 @@ h1 {
 }
 
 input[type=text], [type=email] {
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     width: 250px;
     padding: 12px 14px 14px;
     margin: 4px;
@@ -44,7 +47,24 @@ input[type=text]:focus, [type=email]:focus {
 	color: rgba(31, 58, 88, .3);
 }
 
-input[type=submit] {
+input[type=submit], [type=button] {
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #51D6D0;
+    border: 1px solid #51D6D0;
+    color: white;
+    padding: 12px 18px 14px;
+    text-decoration: none;
+    letter-spacing: .5px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.submit-button {
     background-color: #51D6D0;
     border: 1px solid #51D6D0;
     color: white;
