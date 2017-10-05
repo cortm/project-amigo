@@ -5,8 +5,9 @@
 
     <!-- Basics -->
     <meta charset="utf-8">
-    <title>Project Amigo</title>
-    <meta name="description" content="Mark Madsen, Travis Hoban, Cort McGinty">
+    <title>Yello • Here &amp; Now</title>
+    <meta name="description" content="Yello is a new kind of social platform based on where you are here and now.">
+    <meta name="keywords" content="Yello app, social media app, local events">
     <meta name="author" content="Mark Madsen, Travis Hoban, Cort McGinty">
 
     <!-- Mobile Metas -->
@@ -16,6 +17,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
     <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400,600" rel="stylesheet">
     <script src="https://use.fontawesome.com/56b41df980.js"></script>
 
     <!-- CSS -->
@@ -25,19 +27,35 @@
     <link rel="icon" type="image/png" href="images/favicon.png">
 
     <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107593942-1"></script>
     <script>
-      
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-107593942-1');
     </script>
+
 
   </head>
   <body>
 
-    <div class="proto">
-  	 <p>Hey!</p>
-     <!-- <iframe src="https://marvelapp.com/jfha49g?emb=1" width="350" height="697" allowTransparency="true" frameborder="0"></iframe> -->
-    
+    <div class="welcome">
+      <img src="images/yello-app-icon.png" class="app-icon">
+      <h1 class="yello-is">Yello is the first communication platform based on geolocation.</h1>
+      <!-- <iframe src="https://marvelapp.com/jfha49g?emb=1" width="350" height="697" allowTransparency="true" frameborder="0"></iframe> -->
     </div>
+
+    <div class="newsletter">
+      <p>App coming soon...</p>
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLSc9-CTTV8KzyCagzKZYut0s-ZnPcgtq5zM7eD0JGXwEFGfuZw/formResponse" target="_self" method="POST" id="mG61Hd">
+        <!-- <input id="email" type="email" name="email" placeholder="Enter your email address"> -->
+        <input type="email" class="quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf" autocomplete="email" tabindex="0" aria-label="Your email" name="emailAddress" value="" required="" dir="auto" data-initial-dir="auto" data-initial-value="" placeholder="Enter your email address">
+        <input type="submit" value="Send me updates">
+      </form> 
+    </div>
+
+    <footer><p>&copy; <script>document.write(new Date().getFullYear());</script> - Yello. All rights reserved.</p></footer>
 
   </body>
 </html>
-
