@@ -221,7 +221,10 @@ footer p {
         padding: 100px 30px;
     }
     section.welcome {
-        padding: 75px 30px 120px; 
+        padding: 75px 30px 100px; 
+    }
+    section.newsletter {
+        padding: 80px 40px 100px;
     }
 	input[type=text], [type=email] {
 	    width: 100%;
