@@ -87,7 +87,7 @@ section.welcome {
 
 section.feature {
     padding: 150px 60px;
-    border-top: 1px solid #BBBFC4;
+    border-top: 1px solid #DBDFE2;
 }
 
 .use-case {
@@ -171,7 +171,7 @@ input[type=submit]:hover {
 
 section.newsletter {
     padding: 80px 80px 100px;
-    border-top: 1px solid #BBBFC4;
+    border-top: 1px solid #DBDFE2;
     text-align: center;
 }
 
@@ -214,6 +214,15 @@ footer p {
 /*@media queries*/
 
 @media (max-width: 600px) {
+    .logo {
+        left: calc(50% - 50px)
+    }
+    section.feature {
+        padding: 100px 30px;
+    }
+    section.welcome {
+        padding: 75px 30px 120px; 
+    }
 	input[type=text], [type=email] {
 	    width: 100%;
 	}
