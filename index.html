@@ -1,8 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
     <!-- Basics -->
     <meta charset="utf-8">
     <title>Yello • Here &amp; Now</title>
@@ -13,18 +11,20 @@
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- JQUERY -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400,600" rel="stylesheet">
     <script src="https://use.fontawesome.com/56b41df980.js"></script>
 
     <!-- CSS -->
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/styles.css">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107593942-1"></script>
@@ -35,27 +35,78 @@
 
       gtag('config', 'UA-107593942-1');
     </script>
-
-
   </head>
+
   <body>
+    <div class="logo"></div>
 
-    <div class="welcome">
-      <img src="images/yello-app-icon.png" class="app-icon">
-      <h1 class="yello-is">Yello is the first communication platform based on geolocation.</h1>
-      <!-- <iframe src="https://marvelapp.com/jfha49g?emb=1" width="350" height="697" allowTransparency="true" frameborder="0"></iframe> -->
+    <section class="welcome">
+      <!-- <img src="images/yello-app-icon.png" class="app-icon"> -->
+      <div class="video"><img src="images/play-icon.svg" class="video-play-icon"></div>
+      <h1 class="yello-is">Connect with the here &amp; now.</h1>
+      <p>Yello is the first communication platform based on geolocation.</p>
+      <a href="#newsletter"><button>Get Updates</button></a>
+    </section>
+
+    <div class="features-wrapper">
+
+      <section class="feature">
+        <div class="row">
+          <div class="six columns">
+            <h2>Always know what's happening around you.</h2>
+            <p>No matter when or where you are, Yello shows you who is nearby, what conversations are being had and what events are taking place right around the corner.</p>
+            <p class="use-case first"><span class="call-out">Attending a large event?</span><br> Yello is perfect for communicating in real-time with other attendees.</p>
+          </div>
+          <div class="six columns">
+            <img src="images/placeholder.png" class="feature-image">
+          </div>
+        </div>
+      </section>
+
+      <section class="feature">
+        <div class="row">
+          <div class="six columns">
+            <img src="images/placeholder.png" class="feature-image">
+          </div>
+          <div class="six columns">
+            <h2>Follow topics and interests.</h2>
+            <p>Make new connections with people that share your interests and get notified when someone near you is talking about a specific topic.</p>
+            <p class="use-case"><span class="call-out">Looking for a new hobby?</span><br> With Yello, you can quickly connect with other like-minded individuals and the best part is, they're right in your neighborhood.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature">
+        <div class="row">
+          <div class="six columns">
+            <h2>Location, location, location.</h2>
+            <p>Yello is not a social network. Social networks on average connect you to less than 5% of the people around you. Yello is the new platform for the most active, relevant and local conversation.</p>
+            <p class="use-case first"><span class="call-out">New in town?</span><br> Yello is the best place to get help or ask questions. Only the people in your area (who have the most context) will be able to answer.</p>
+          </div>
+          <div class="six columns">
+            <img src="images/placeholder.png" class="feature-image">
+          </div>
+        </div>
+      </section>
+
+      <section id="newsletter" class="newsletter">
+        <h2>The Yello app is coming soon!</h2>
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSc9-CTTV8KzyCagzKZYut0s-ZnPcgtq5zM7eD0JGXwEFGfuZw/formResponse" target="_self" method="POST" id="mG61Hd">
+          <input type="email" class="quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf" autocomplete="email" tabindex="0" aria-label="Your email" name="emailAddress" value="" required="" dir="auto" data-initial-dir="auto" data-initial-value="" placeholder="Enter your email address">
+          <input type="submit" value="Send me updates" class="submit-button">
+        </form> 
+      </section>
+    </div> <!-- end sections wrapper -->
+
+    <div class="social">
+      <ul>
+        <li><a href="https://twitter.com/yellonow" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="mailto:cortmcginty@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+      </ul>
     </div>
 
-    <div class="newsletter">
-      <p>App coming soon...</p>
-      <form action="https://docs.google.com/forms/d/e/1FAIpQLSc9-CTTV8KzyCagzKZYut0s-ZnPcgtq5zM7eD0JGXwEFGfuZw/formResponse" target="_self" method="POST" id="mG61Hd">
-        <!-- <input id="email" type="email" name="email" placeholder="Enter your email address"> -->
-        <input type="email" class="quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf" autocomplete="email" tabindex="0" aria-label="Your email" name="emailAddress" value="" required="" dir="auto" data-initial-dir="auto" data-initial-value="" placeholder="Enter your email address">
-        <input type="submit" value="Send me updates" class="submit-button">
-      </form> 
-    </div>
-
-    <footer><p>&copy; <script>document.write(new Date().getFullYear());</script> - Yello. All rights reserved.</p></footer>
+    <footer><p>&copy; <script>document.write(new Date().getFullYear());</script> - Yello.</p></footer>
 
   </body>
 </html>

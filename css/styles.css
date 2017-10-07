@@ -1,27 +1,113 @@
 body {
 	font-family: 'Work Sans', sans-serif;
 	color: #1F3A58;
-	margin: 0 20px;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 h1 {
-	font-weight: 400;
+	font-weight: 600;
 	font-size: 26px;
-	line-height: 36px;
+	line-height: 30px;
+    letter-spacing: .5px;
+}
+
+h2 {
+    font-size: 18px;
+    letter-spacing: .5px;
+}
+
+button {
+    background-color: #51D6D0;
+    border: 1px solid #51D6D0;
+    color: white;
+    padding: 12px 18px 14px;
+    text-decoration: none;
+    letter-spacing: .5px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 13px; 
+}
+
+button:hover {
+    background-color: #4BC8C2;
+    border: 1px solid #4BC8C2;
+}
+
+.logo {
+    position: relative;
+    top: 30px;
+    left: 35px;
+    width: 100px;
+    height: 35px;
+    background: url(../images/yello-wordmark.svg) center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.video {
+    margin: 0 auto;
+    width: 270px;
+    height: 170px;
+    background-color: #BBBFC4;
+    border-radius: 6px;
+}
+
+.video-play-icon {
+    position: relative;
+    top: 50px;
+    width: 70px;
 }
 
 .app-icon {
 	max-width: 80px; 
 }
 
-.welcome {
-	margin: 15% auto 0;
+section.welcome {
+	margin: 0 auto;
 	max-width: 600px;
+    padding: 120px 0;
 	text-align: center;
 }
 
-.yello-is {
-	margin-top: 30px;
+.welcome p {
+    margin-top: -15px;
+}
+
+.welcome button {
+    margin-top: 15px;
+}
+
+.features-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+section.feature {
+    padding: 150px 60px;
+    border-top: 1px solid #BBBFC4;
+}
+
+.use-case {
+    font-style: italic;
+    font-size: 13px;
+    line-height: 21px;
+    padding-top: 15px;
+    padding-right: 100px;
+    letter-spacing: .25px;
+}
+
+.call-out {
+    font-weight: 600;
+    color: #51D6D0;
+}
+
+.feature-image {
+    background-color: #BBBFC4;
+    height: 100%;
+    width: 100%;
 }
 
 input[type=text], [type=email] {
@@ -83,23 +169,49 @@ input[type=submit]:hover {
     border: 1px solid #4BC8C2;
 }
 
-.newsletter {
-	margin: 100px auto 0;
-	text-align: center;
+section.newsletter {
+    padding: 80px 80px 100px;
+    border-top: 1px solid #BBBFC4;
+    text-align: center;
 }
 
 .newsletter p {
 	font-weight: 600;
 }
 
+.social ul {
+    padding-left: 20px;
+}
+
+.social ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+    color: #959CA6;
+}
+
+.social i {
+    color: #1F3A58;
+}
+
+.social i:hover {
+    color: #51D6D0;
+}
+
+footer {
+    position: relative;
+}
+
 footer p {
 	position: absolute;
-	bottom: 5px;
+	bottom: 14px;
 	right: 20px;
 	opacity: .40;
 	font-size: 12px;
 }
 
+/*@media queries*/
 
 @media (max-width: 600px) {
 	input[type=text], [type=email] {
@@ -108,5 +220,14 @@ footer p {
 	input[type=submit] {
 		width: 100%;
 	}
+    .use-case.first {
+        padding-bottom: 30px;
+    }
+    .use-case {
+        padding-right: 0;
+    }
+    .social ul {
+        padding-left: 10px;
+    }
 }
 
