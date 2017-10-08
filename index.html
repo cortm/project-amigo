@@ -32,7 +32,6 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'UA-107593942-1');
     </script>
   </head>
@@ -41,10 +40,9 @@
     <div class="logo"></div>
 
     <section class="welcome">
-      <!-- <img src="images/yello-app-icon.png" class="app-icon"> -->
       <div class="video"><img src="images/play-icon.svg" class="video-play-icon"></div>
       <h1 class="yello-is">Connect with the here &amp; now.</h1>
-      <p>Yello is the first communication platform based on geolocation.</p>
+      <p>Yello is the first location-based communication platform.</p>
       <a href="#newsletter"><button>Get Updates</button></a>
     </section>
 
@@ -91,12 +89,12 @@
 
       <section id="newsletter" class="newsletter">
         <h2>The Yello app is coming soon!</h2>
-        <form action="https://docs.google.com/forms/d/e/1FAIpQLSc9-CTTV8KzyCagzKZYut0s-ZnPcgtq5zM7eD0JGXwEFGfuZw/formResponse" target="_self" method="POST" id="mG61Hd">
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSc9-CTTV8KzyCagzKZYut0s-ZnPcgtq5zM7eD0JGXwEFGfuZw/formResponse" target="_self" method="POST" id="mG61Hd" onSubmit="window.open ('thanks.html')">
           <input type="email" class="quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf" autocomplete="email" tabindex="0" aria-label="Your email" name="emailAddress" value="" required="" dir="auto" data-initial-dir="auto" data-initial-value="" placeholder="Enter your email address">
           <input type="submit" value="Send me updates" class="submit-button">
         </form> 
       </section>
-    </div> <!-- end sections wrapper -->
+    </div>
 
     <div class="social">
       <ul>
@@ -109,4 +107,21 @@
     <footer><p>&copy; <script>document.write(new Date().getFullYear());</script> - Yello.</p></footer>
 
   </body>
+
+  <!-- Smooth Scroll -->
+  <script>
+    $(document).ready(function(){
+      $("a").on('click', function(event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+            window.location.hash = hash;
+          });
+        }
+      });
+    });
+  </script>
 </html>

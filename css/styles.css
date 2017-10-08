@@ -28,12 +28,13 @@ button {
     cursor: pointer;
     border-radius: 3px;
     font-weight: 600;
-    font-size: 13px; 
+    font-size: 13px;
+    transition: all .4s ease;
 }
 
 button:hover {
-    background-color: #4BC8C2;
-    border: 1px solid #4BC8C2;
+    background-color: #2E4B6A;
+    border: 1px solid #2E4B6A;
 }
 
 .logo {
@@ -51,7 +52,11 @@ button:hover {
     margin: 0 auto;
     width: 270px;
     height: 170px;
-    background-color: #BBBFC4;
+    background-color: #51D6D0;
+    background: url(../images/lifestyle1.png) center center;
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: 80% 30%;
     border-radius: 6px;
 }
 
@@ -148,25 +153,12 @@ input[type=submit], [type=button] {
     border-radius: 3px;
     font-weight: 600;
     font-size: 13px;
-}
-
-.submit-button {
-    background-color: #51D6D0;
-    border: 1px solid #51D6D0;
-    color: white;
-    padding: 12px 18px 14px;
-    text-decoration: none;
-    letter-spacing: .5px;
-    margin: 4px;
-    cursor: pointer;
-    border-radius: 3px;
-    font-weight: 600;
-    font-size: 13px;
+    transition: all .4s ease;
 }
 
 input[type=submit]:hover {
-    background-color: #4BC8C2;
-    border: 1px solid #4BC8C2;
+    background-color: #2E4B6A;
+    border: 1px solid #2E4B6A;
 }
 
 section.newsletter {
