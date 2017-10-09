@@ -32,6 +32,10 @@ button {
     transition: all .4s ease;
 }
 
+.row {
+    display: inline-block;
+}
+
 button:hover {
     background-color: #2E4B6A;
     border: 1px solid #2E4B6A;
@@ -224,14 +228,14 @@ footer p {
 	input[type=submit] {
 		width: 100%;
 	}
-    .use-case.first {
-        padding-bottom: 30px;
-    }
     .use-case {
         padding-right: 0;
     }
     .social ul {
         padding-left: 10px;
     }
+    .row { display: flex; flex-flow: column; }
+    .graphic { order: 1; }
+    .text { order: 2; }
 }
 
