@@ -4,8 +4,8 @@
     <!-- Basics -->
     <meta charset="utf-8">
     <title>Yello • Here &amp; Now</title>
-    <meta name="description" content="Yello is a new kind of social platform based on where you are here and now.">
-    <meta name="keywords" content="Yello app, social media app, local events">
+    <meta name="description" content="Yello is the first location-based communication platform.">
+    <meta name="keywords" content="Yello app, messaging app, local events">
     <meta name="author" content="Mark Madsen, Travis Hoban, Cort McGinty">
 
     <!-- Mobile Metas -->
@@ -41,11 +41,18 @@
     <div class="logo"></div>
 
     <section class="welcome">
-      <div class="video hvr-grow-shadow"><img src="images/play-icon.svg" class="video-play-icon"></div>
+      <div id='basic-modal'>
+        <a href='#' class='basic'><div class="video hvr-grow-shadow"><img src="images/play-icon.svg" class="video-play-icon"></div></a>
+      </div>
       <h1 class="yello-is">Connect with the here &amp; now.</h1>
       <p>Yello is the first location-based communication platform.</p>
       <a href="#newsletter"><button>Get Updates</button></a>
     </section>
+
+    <!-- modal content -->
+    <!-- <div id="basic-modal-content">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/K5k8sx7C5gg" frameborder="0" allowfullscreen></iframe>
+    </div> -->
 
     <div class="features-wrapper">
 
@@ -127,4 +134,9 @@
       });
     });
   </script>
+
+  <script type='text/javascript' src='js/jquery.js'></script>
+  <script type='text/javascript' src='js/jquery.simplemodal.js'></script>
+  <script type='text/javascript' src='js/basic.js'></script>
+
 </html>

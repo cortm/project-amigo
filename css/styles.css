@@ -71,6 +71,10 @@ button:hover {
     width: 70px;
 }
 
+iframe {
+    border: none;
+}
+
 .app-icon {
 	max-width: 80px; 
 }
@@ -262,7 +266,35 @@ footer p {
 
 .thanks h2 {
     margin-top: 100px;
-    
+}
+
+#basic-modal-content {
+    display:none;
+}
+
+#simplemodal-overlay {
+    background-color:#2E4B6A;
+}
+
+#simplemodal-container {
+    height:330px;
+    width:560px;
+    background-color:#ffffff;
+    border-radius: 3px;
+    padding: 15px 15px 0;
+}
+
+#simplemodal-container a.modalCloseImg {
+    background:url(../images/close.svg) no-repeat; 
+    width:30px;
+    height:30px;
+    display:inline;
+    z-index:3200;
+    position:absolute;
+    top:-16px;
+    right:-16px;
+    cursor:pointer;
+    background-size: 100%;
 }
 
 /*@media queries*/
