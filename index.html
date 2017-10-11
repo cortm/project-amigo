@@ -20,6 +20,7 @@
 
     <!-- CSS -->
     <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/styles.css">
 
@@ -36,11 +37,11 @@
     </script>
   </head>
 
-  <body>
+  <body class="animated fadeIn">
     <div class="logo"></div>
 
     <section class="welcome">
-      <div class="video"><img src="images/play-icon.svg" class="video-play-icon"></div>
+      <div class="video hvr-grow-shadow"><img src="images/play-icon.svg" class="video-play-icon"></div>
       <h1 class="yello-is">Connect with the here &amp; now.</h1>
       <p>Yello is the first location-based communication platform.</p>
       <a href="#newsletter"><button>Get Updates</button></a>
@@ -50,7 +51,7 @@
 
       <section class="feature">
         <div class="row">
-          <div class="five columns text">
+          <div class="five columns text words">
             <h2>Be connected with what's happening around you.</h2>
             <p>No matter when or where you are, Yello shows you who is nearby, what conversations are being had and what events are taking place right around the corner.</p>
             <p class="use-case"><span class="call-out">Attending a large event?</span><br> Yello is perfect for communicating in real-time with other attendees.</p>
@@ -66,7 +67,7 @@
           <div class="seven columns">
             <img src="images/ui-two.png" class="feature-image">
           </div>
-          <div class="five columns">
+          <div class="five columns words">
             <h2>Follow topics and interests.</h2>
             <p>Make new connections with people that share your interests and get notified when someone near you is talking about a specific topic.</p>
             <p class="use-case"><span class="call-out">Looking for a new hobby?</span><br> With Yello, you can quickly connect with other like-minded individuals and the best part is, they're right in your neighborhood.</p>
@@ -76,7 +77,7 @@
 
       <section class="feature">
         <div class="row">
-          <div class="five columns text">
+          <div class="five columns text words">
             <h2>Location, location, location.</h2>
             <p>Yello is not a social network. Social networks on average connect you to less than 5% of the people around you. Yello is the new platform for the most active, relevant and local conversation.</p>
             <p class="use-case"><span class="call-out">New in town?</span><br> Yello is the best place to get help or ask questions. Only the people in your area (who have the most context) will be able to answer.</p>
@@ -89,10 +90,12 @@
 
       <section id="newsletter" class="newsletter">
         <h2>The Yello app is coming soon!</h2>
-        <form action="https://docs.google.com/forms/d/e/1FAIpQLSc9-CTTV8KzyCagzKZYut0s-ZnPcgtq5zM7eD0JGXwEFGfuZw/formResponse" target="_self" method="POST" id="mG61Hd" onSubmit="window.open ('thanks.html')">
-          <input type="email" class="quantumWizTextinputPaperinputInput exportInput" jsname="YPqjbf" autocomplete="email" tabindex="0" aria-label="Your email" name="emailAddress" value="" required="" dir="auto" data-initial-dir="auto" data-initial-value="" placeholder="Enter your email address">
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSc9-CTTV8KzyCagzKZYut0s-ZnPcgtq5zM7eD0JGXwEFGfuZw/formResponse" target="no-target" method="POST" id="mG61Hd" onSubmit="window.open ('thanks.html')">
+          <input type="email" autocomplete="email" tabindex="0" aria-label="Your email" name="emailAddress" value="" required="" dir="auto" data-initial-dir="auto" data-initial-value="" placeholder="Enter your email address">
           <input type="submit" value="Send me updates" class="submit-button">
-        </form> 
+        </form>
+        <!-- Prevents Google Forms thank you page redirect -->
+        <iframe src="#" id="no-target" name="no-target"></iframe>
       </section>
     </div>
 

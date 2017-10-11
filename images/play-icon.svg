@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="105px" height="105px" viewBox="0 0 105 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+<svg width="129px" height="129px" viewBox="0 0 129 129" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
     <title>play-icon</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="App" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="play-icon" transform="translate(3.000000, 3.000000)">
-            <circle id="Oval-9" stroke="#FFFFFF" stroke-width="5" cx="49.5" cy="49.5" r="49.5"></circle>
-            <path d="M30.5702019,39.5947218 L61.2268515,32.7284589 L61.2268515,32.7284589 C62.3047168,32.4870462 63.374203,33.165125 63.6156158,34.2429903 C63.6800854,34.5308356 63.6800854,34.8293779 63.6156158,35.1172232 L56.749353,65.7738729 L56.749353,65.7738729 C56.5079402,66.8517382 55.438454,67.529817 54.3605887,67.2884042 C53.9905235,67.2055196 53.6516503,67.0191286 53.3834916,66.75097 L29.5931048,42.9605831 L29.5931048,42.9605831 C28.8120562,42.1795345 28.8120562,40.9132046 29.5931048,40.132156 C29.8612634,39.8639973 30.2001366,39.6776064 30.5702019,39.5947218 Z" id="Rectangle-22" fill="#FFFFFF" transform="translate(46.671714, 49.672361) rotate(-315.000000) translate(-46.671714, -49.672361) "></path>
+    <g id="Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="play-icon">
+            <circle id="Oval-5" fill="#51D6D0" cx="64.5" cy="64.5" r="64.5"></circle>
+            <path d="M49.3709644,53.586755 L71.1753003,49.3030088 L71.1753003,49.3030088 C72.8010759,48.9836039 74.3779563,50.0426267 74.6973612,51.6684024 C74.7723935,52.0503181 74.7723914,52.443185 74.6973552,52.8250999 L70.4134926,74.6288436 L70.4134926,74.6288436 C70.0940711,76.254616 68.5171798,77.3136226 66.8914074,76.994201 C66.3068542,76.8793517 65.7697294,76.593067 65.3484797,76.1718288 L47.8280065,58.6518314 L47.8280065,58.6518314 C46.6564177,57.4802745 46.6563919,55.5807795 47.8279488,54.4091907 C48.2492141,53.9879141 48.7863724,53.7016057 49.3709644,53.586755 Z" id="Rectangle-15" fill="#FFFFFF" transform="translate(60.500000, 63.500000) rotate(-315.000000) translate(-60.500000, -63.500000) "></path>
         </g>
     </g>
 </svg>
