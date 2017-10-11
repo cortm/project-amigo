@@ -256,11 +256,20 @@ footer p {
   transform: scale(1.025);
 }
 
+.thanks {
+    text-align: center;
+}
+
+.thanks h2 {
+    margin-top: 100px;
+    
+}
+
 /*@media queries*/
 
 @media (max-width: 600px) {
     body {
-        margin: 10px 0 0;
+        margin: 10px 20px 0;
     }
     .logo {
         left: calc(50% - 50px)
