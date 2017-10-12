@@ -339,5 +339,10 @@ footer p {
     .row { display: flex; flex-flow: column; }
     .graphic { order: 1; }
     .text { order: 2; }
+    
+    #simplemodal-container {
+        height:165px;
+        width:280px;
+    }
 }
 
