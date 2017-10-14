@@ -102,7 +102,17 @@ section.welcome {
 
 section.feature {
     padding: 100px 60px;
-    border-top: 1px solid #DBDFE2;
+    position: relative;
+}
+
+section.feature::before {
+    content: "";
+    height: 1px;
+    width: calc(100% - 50px);
+    position: absolute;
+    top: 0;
+    left: 25px;
+    background: #DBDFE2;
 }
 
 .feature h2 {
@@ -177,7 +187,6 @@ input[type=submit]:hover {
 
 section.newsletter {
     padding: 100px 80px 50px;
-    border-top: 1px solid #DBDFE2;
     text-align: center;
 }
 
@@ -313,7 +322,7 @@ footer p {
         padding: 100px 0;
     }
     .feature .words {
-        padding: 0 20px;
+        padding: 0 40px;
     }
     .feature h2 {
         margin-top: 15px;
