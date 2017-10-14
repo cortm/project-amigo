@@ -302,7 +302,7 @@ footer p {
 
 /*@media queries*/
 
-@media (max-width: 600px) {
+@media (max-width: 570px) {
     body {
         margin: 10px 20px 0;
     }
@@ -317,6 +317,10 @@ footer p {
     }
     .feature h2 {
         margin-top: 15px;
+    }
+    .feature-image {
+        height: 130%;
+        width: 130%;
     }
     section.welcome {
         padding: 75px 30px 100px; 
