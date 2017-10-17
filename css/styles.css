@@ -190,6 +190,10 @@ section.newsletter {
     text-align: center;
 }
 
+.newsletter h2 {
+    margin-top: 0;
+}
+
 .newsletter p {
 	font-weight: 600;
 }
